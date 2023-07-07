@@ -71,7 +71,9 @@ For more information on the importance of a professional README for your reposit
 **Portfolio_setup_and_mobile_first** is a project of html headings and css stylings of setup mobile first
 
 ## 🛠 Built With <a name="built-with"></a>
-
+1. HTML
+2. CSS
+3. Linters
 ### Tech Stack <a name="tech-stack"></a>
 
 > HTML5: Markup language for creating the structure and content of web pages.
@@ -90,6 +92,9 @@ CSS3: Stylesheet language for describing the presentation and layout of web page
 ### Key Features <a name="key-features"></a>
 
 > This project is about creating pages of portfolio mobile first 
+- Add a professional README.md file
+- Use flexbox in order to lay out the elements on the page
+- Set up a linter for the project
 - **HTML and CSS**
 
 
@@ -102,88 +107,25 @@ CSS3: Stylesheet language for describing the presentation and layout of web page
 >Familiarize yourself with the project structure: Take some time to understand how the project is organized
 >Examine the HTML structure: Open the main HTML file in a text editor or an integrated development environment (IDE). 
 
-### Prerequisites
-
+### Prerequisites 
 In order to run this project you need:
->Installation of Git
->Installation of NPM
->A working browser
->Internet connection
->A code editor like Visual Studio Code
->Installation of Live Server plugging in Visual Studio Code
-Example command:
-
-```sh
- gem install rails
-```
-
-### Setup
-
-Clone this repository to your desired folder: BY
->git clone
->open vs code
->git 
-
-Example commands:Setup
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
-
+1. Git.
+2. Visual Studio Code or another code editor.
+3. Browser.  
+   
 ### Install
 
-Install this project with:
->Installation of Git
->Installation of NPM
->A working browser
->Internet connection
->A code editor like Visual Studio Code
->Installation of Stylelint
-
-Example command:
-
+This project does not require installation. Just clone the repository to your local machine and open the HTML file in a browser.
+Even though, for general purposes, Install this project with:
 ```sh
-  cd my-project
-  gem install
+  cd my-folder
+  npm install
 ```
 
 ### Usage
-
-To run the project, execute the following command:
->go to vs code
->right click 
->click on run on live server or
->drag and drop to browser tap
-Example command:
-
-```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
->npx stylelint "**/*.{css,scss}"
-
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
-
-
-### Deployment
-
-You can deploy this project using:
->github deploy
-
-Example:
-
-```sh
-
-```
-
+To run the project, do the following:
+- After cloning the repository to your local computer, open the folder in a code editor.
+- Find the path of the index.html file and open it in your preferred browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
