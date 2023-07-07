@@ -1,86 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-body {
-  background-color: #e5e5e5;
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.intro {
-  background-image: url(./figmaImages/images/background-shapes.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  object-fit: contain;
-  max-width: fit-content;
-  width: 100%;
-  height: 718px;
+body {
+  background-color: #f7f7f9;
+  overflow-x: hidden;
 }
 
-main {
-  background-color: #fff;
-  width: 100vw;
-  height: 100vh;
-  border-radius: 0 0 0 15%;
-}
-
-header {
-  padding-top: 16px;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav {
-  padding-right: 32px;
-}
-
-.my-logo a {
-  color: #6070ff;
-  font-family: 'Poppins', arial, helvetica, sans-serif;
+header h4.log {
+  font-family: poppins, sans-serif;
+  font-size: 1.125rem;
   font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 20px;
-  padding-left: 30px;
-  text-decoration: none;
+  line-height: 1.25rem;
+  color: #6070ff;
 }
 
-.greeting {
-  color: #172b4d;
-  font-family: 'Poppins', arial, helvetica, sans-serif;
+.logo-menubar {
+  display: flex;
+  align-items: flex-start;
+  gap: 12.438rem;
+  padding: 0.25rem 1.5rem o0.25rem 0.75rem;
+}
+
+.intro-part {
+  background-image: url(./figmaImages/images/header-shapes\ mobile.png);
+  background-position: center;
+  background-size: cover;
+  padding: 114px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.intro-part h1 {
+  display: flex;
+  width: 20.438rem;
+  height: 9.375rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 140px;
-  padding-left: 32px;
+  line-height: 3.25rem;
+  color: #172b4d;
+  margin-bottom: 0.75rem;
 }
 
-.description {
-  color: #344563;
-  font-family: 'Poppins', arial, helvetica, sans-serif;
+p.presentation-paragraph {
+  display: flex;
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+  flex-direction: column;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 32px;
-  padding-right: 34px;
+  line-height: 1.5rem;
+  color: #344563;
+  margin-bottom: 0.75rem;
 }
 
-.connect-link {
+p.social-part {
+  margin-top: 0.75rem;
   color: #7f8cff;
-  font-family: 'Poppins', arial, helvetica, sans-serif;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 34px;
+  line-height: 1.5rem;
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
-.social-media-links {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  list-style-type: none;
+.socialnetwork-part img {
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+}
+
+@media screen  and (min-width: 375px) {
+  header {
+    margin: 1.5rem 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+  }
+
+  header h4.logo {
+    font-family: poppins, sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: #6070ff;
+    flex-shrink: 0;
+  }
+
+  .logo-menubar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12.438rem;
+    padding: 0.5rem;
+  }
+
+  .intro-part h1 {
+    display: flex;
+    width: 20.438rem;
+    height: 9.375rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+    font-family: Poppins-blacks, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem;
+    color: #172b4d;
+    margin-bottom: 0.75rem;
+  }
+
+  .connect-link {
+    margin-top: 0.75rem;
+    color: #7f8cff;
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .social-media-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
 }
