@@ -11,19 +11,16 @@ body {
   overflow-x: hidden;
 }
 
-header h4.log {
-  font-family: poppins, sans-serif;
-  font-size: 1.125rem;
-  font-style: normal;
-  line-height: 1.25rem;
-  color: #6070ff;
+.flex-container {
+  display: flex;
 }
 
-.logo-menubar {
-  display: flex;
-  align-items: flex-start;
-  gap: 12.438rem;
-  padding: 0.25rem 1.5rem o0.25rem 0.75rem;
+.font-poppins {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.font-style-normal {
+  font-style: normal;
 }
 
 .intro-part {
@@ -43,34 +40,28 @@ header h4.log {
   flex-direction: column;
   justify-content: center;
   padding: 0.25rem 1.5rem 0.25rem 0.75rem;
-  font-family: Poppins, sans-serif;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
   line-height: 3.25rem;
   color: #172b4d;
   margin-bottom: 0.75rem;
 }
 
-p.presentation-paragraph {
+.presentation-paragraph {
   display: flex;
   padding: 0.25rem 1.5rem 0.25rem 0.75rem;
   flex-direction: column;
-  font-family: Poppins, sans-serif;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5rem;
   color: #344563;
   margin-bottom: 0.75rem;
 }
 
-p.social-part {
+.connect-link {
   margin-top: 0.75rem;
   color: #7f8cff;
-  font-family: Poppins, sans-serif;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;
   padding: 0.25rem 1.5rem 0.25rem 0.75rem;
@@ -90,9 +81,7 @@ p.social-part {
   }
 
   header h4.logo {
-    font-family: poppins, sans-serif;
     font-size: 1.125rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.25rem;
     color: #6070ff;
@@ -115,7 +104,6 @@ p.social-part {
     padding: 0.25rem 1.5rem 0.25rem 0.75rem;
     font-family: Poppins-blacks, sans-serif;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 3.25rem;
     color: #172b4d;
@@ -125,9 +113,7 @@ p.social-part {
   .connect-link {
     margin-top: 0.75rem;
     color: #7f8cff;
-    font-family: Poppins, sans-serif;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5rem;
     padding: 0.25rem 1.5rem 0.25rem 0.75rem;
