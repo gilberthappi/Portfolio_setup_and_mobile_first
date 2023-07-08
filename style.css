@@ -195,6 +195,11 @@ body {
     color: #344563;
   }
 
+  .connect-link a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   .webdev-languages {
     display: flex;
     list-style-type: none;
@@ -289,7 +294,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #253858;
-    margin: 16px;
+    margin: 5px;
     padding: 12px;
     gap: 10px;
   }
@@ -316,11 +321,35 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #000;
-    margin-left: 24px;
     margin-top: 0;
     margin-bottom: 0;
     list-style-type: none;
     padding-left: 0;
+  }
+
+  .lists {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    height: 66.72px;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+  }
+
+  .lists li h4 {
+    width: 270px;
+    height: 24px;
+    top: 24px;
+    left: 80%;
+    justify-content: space-around;
+  }
+
+  .locate {
+    top: 16px;
+    padding: 1px;
+    border-radius: 8px;
   }
 
   ul {
@@ -331,26 +360,14 @@ body {
     width: 100%;
   }
 
-  .lists {
-    display: flex;
-    align-items: center;
-    gap: 55vw;
-    max-width: 100%;
-    height: 66.72px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    justify-content: space-around;
-  }
-
-  .lists li h4 {
-    margin-right: 0;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 60vw;
-    padding: auto;
-    width: 100px;
-    right: 80px !important;
+  .about-myself h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #172b4d;
   }
 
   .aboutme-list {
@@ -358,21 +375,13 @@ body {
     height: hug (464.15px);
   }
 
-  .about-myself h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0.25rem 1.5rem 0.25rem 0.75rem;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 3.25rem;
-    color: #172b4d;
-    margin-bottom: 0.75rem;
-    width: 327px;
-    height: 35px;
-  }
-
-  .locate {
-    padding-right: 70px;
+  .paragraph {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #344563;
   }
 }
