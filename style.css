@@ -125,4 +125,263 @@ body {
     align-items: center;
     list-style-type: none;
   }
+
+  .works {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    width: hug (375px);
+    height: hug (2, 788px);
+    top: 718px;
+    padding: 114px 24px 114px 24px;
+    gap: 88px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid #e5e5e5 1px;
+    background-color: #fff;
+    width: hug (327px);
+    height: hug (596px);
+    padding: 16px;
+    border-radius: 16px;
+    gap: 12px;
+  }
+
+  .cards-titles {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .subheading-lists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: hug (236px);
+    height: hug (32px);
+  }
+
+  .canopy {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+    padding: 8px, 0, 8px, 0;
+  }
+
+  .subheading-list-title {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+  }
+
+  .card-content {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .connect-link a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .webdev-languages {
+    display: flex;
+    list-style-type: none;
+    width: hug (214px);
+    height: hug (24px);
+    padding: 12px 0;
+    gap: 8px;
+  }
+
+  .webdev-languages li a {
+    text-decoration: none;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    background: #ebebff;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6070ff;
+    padding: 4px 12px;
+    border-radius: 8px;
+    width: hug (214px);
+    height: hug (24px);
+    gap: 8px;
+  }
+
+  .see-project {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #f7f7f9;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    padding: 12px;
+    gap: 10px;
+    width: hug (126px);
+    height: hug (48px);
+    top: 12px;
+  }
+
+  .my-resume {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #f7f7f9;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    padding: 12px;
+    gap: 10px;
+    width: hug (126px);
+    height: hug (48px);
+    top: 12px;
+  }
+
+  .my-resume:hover,
+  .see-project:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #6070ff;
+  }
+
+  .my-resume:active,
+  .see-project:active {
+    box-shadow: 2px 2px 5px #2230d2;
+    transform: translateY(1px);
+  }
+
+  .programming-lang {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .web-lang {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+
+  .programming-lang li {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: #f7f7f9;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    margin: 5px;
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .about-myself {
+    background-color: #fff;
+    border-radius: 0 100px 0 0 / 100px;
+    margin-top: 16%;
+    width: hug (375px);
+    height: hug (1, 062.15px);
+    padding: 114px 24px 114px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .list-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .lists {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    height: 66.72px;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+  }
+
+  .lists li h4 {
+    width: 270px;
+    height: 24px;
+    top: 24px;
+    left: 80%;
+    justify-content: space-around;
+  }
+
+  .locate {
+    top: 16px;
+    padding: 1px;
+    border-radius: 8px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .list-separator {
+    width: 100%;
+  }
+
+  .about-myself h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #172b4d;
+  }
+
+  .aboutme-list {
+    width: hug (327px);
+    height: hug (464.15px);
+  }
+
+  .paragraph {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #344563;
+  }
 }

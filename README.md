@@ -34,7 +34,7 @@ For more information on the importance of a professional README for your reposit
   <img src="download.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio_setup_and_mobile_first</b></h3>
+  <h3><b>Portfolio: finish mobile version</b></h3>
 
 </div>
 
@@ -46,14 +46,11 @@ For more information on the importance of a professional README for your reposit
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -68,7 +65,8 @@ For more information on the importance of a professional README for your reposit
 
 > This project is about creating portfolio by using figma
 
-**Portfolio_setup_and_mobile_first** is a project of html headings and css stylings of setup mobile first
+**Portfolio_setup_and_mobile_first** is a project of html headings and css stylings of 
+finish mobile version
 
 ## 🛠 Built With <a name="built-with"></a>
 1. HTML
@@ -94,6 +92,7 @@ CSS3: Stylesheet language for describing the presentation and layout of web page
 > This project is about creating pages of portfolio mobile first 
 - Add a professional README.md file
 - Use flexbox in order to lay out the elements on the page
+-use grid
 - Set up a linter for the project
 - **HTML and CSS**
 
