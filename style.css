@@ -259,6 +259,7 @@ body {
     top: 12px;
   }
 
+  .submitbutton:hover,
   .my-resume:hover,
   .see-project:hover {
     color: #fff;
@@ -266,10 +267,16 @@ body {
     background-color: #6070ff;
   }
 
+  .submitbutton:active,
   .my-resume:active,
   .see-project:active {
     box-shadow: 2px 2px 5px #2230d2;
     transform: translateY(1px);
+  }
+
+  .submitbutton:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(213, 161, 236, 0.3);
   }
 
   .programming-lang {
@@ -459,9 +466,20 @@ body {
   }
 
   .myForm button {
-    margin: 0;
-    padding: 12px 16px;
-    width: auto;
+    border: 1px solid #6070ff;
     border-radius: 8px;
+    background-color: #f7f7f9;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    padding: 12px;
+    gap: 10px;
+    width: hug (126px);
+    height: hug (48px);
+    top: 12px;
   }
+}
 }
