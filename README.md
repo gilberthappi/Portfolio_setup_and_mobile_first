@@ -137,6 +137,11 @@ To run the project, do the following:
 - Twitter: [@twitterhandle](https://twitter.com/DushimimanaGil3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dushimimana-gilbert-happi-997b2a262/)
 
+👤 **Fernando Montes**
+
+- GitHub: [@Fernando426](https://github.com/Fernando426)
+- Twitter: [@Fernando_426_](https://twitter.com/Fernando_426_)
+- LinkedIn: [Fernando Montes](https://www.linkedin.com/in/fernando-jose-montes-linares-523822270/?originalSubdomain=ve)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

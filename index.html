@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio_setup_and_mobile_first</title>
     <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
     <header>
@@ -248,6 +261,45 @@
             </li>
         </ul>
       </section>
-
+      <footer>
+        <div class="form">
+          <h2>Contact me</h2>
+          <p>
+            If you have an application you are interested in developing, a feature
+            that you need built or a project that needs coding. I’d love to help
+            with it
+          </p>
+        </div>
+        <form class="myForm" action="https://formspree.io/f/xrgrvjjr" method="post">
+            <ul class="contact-form">
+                <li>
+                  <input
+                    type="text"
+                    name="name"
+                    maxlength="30"
+                    placeholder="Happi"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="gdushimimana6@gmail.com"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea
+                    name="message"
+                    maxlength="500"
+                    placeholder="Write your message here"
+                    required
+                  ></textarea>
+                </li>
+              </ul>
+          <button class="submitbutton" type="submit">Get It Touch</button>
+        </form>
+      </footer>
 </body>
 </html>
