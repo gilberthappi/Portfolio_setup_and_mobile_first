@@ -137,8 +137,6 @@ To run the project, do the following:
 - Twitter: [@twitterhandle](https://twitter.com/DushimimanaGil3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dushimimana-gilbert-happi-997b2a262/)
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
