@@ -1,268 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio_setup_and_mobile_first</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-    crossorigin="anonymous"
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet"
-  />
-</head>
-<body>
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Project</title>
+  </head>
+  <body>
+    <!-- ########## Header ##########-->
     <header>
-        <section class="logo-menubar">
-            <h4 class="logo">
-                My Logo
-            </h4>
-            <nav>
-                <img src="./figmaImages/images/Union.png" alt="Hamburger Button">
-            </nav>
-        </section>
+      <nav>
+        <div class="logo">
+          <a href="">My Logo</a>
+        </div>
+        <ul class="navLinks">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <i class="fas fa-bars"></i>
+      </nav>
     </header>
-    <section class="intro-part">
-        <h1>I’m Happi. Glad to see you!</h1>
-        <p class="presentation-paragraph">I’m a software developer! I can help you build a product, feature, or website. Look through
-            some of my work and experience! If you like what you see and have a project you need coded, 
-            don’t hesitate to <a href="#contact">contact me</a>
+    <!-- ####### Hero Section #######-->
+    <section class="hero">
+      <div class="container">
+        <h1 class="myName">I’m Happi<br> Glad to see you!</h1>
+        <p class="describtion">
+          I’m a software developer student at Microverse I can help you
+          build website using HTML and CSS, Look through some of my work and
+          experience! If you like what you see and have a project you need
+          coded, don’t hestiate to contact me.
         </p>
-        <section class="socialnetwork-part">
-            <p class="connect-link">
-                <a href="#connect">LET'S CONNECT</a>
-            </p>
-            <ul class="social-media-links">
-                <li>
-                    <a href="#">
-                        <img src="./figmaImages/images/twitter-logo.png" alt="Twitter logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./figmaImages/images/Linkedin icon.png" alt="LinkedIn logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./figmaImages/images/medium-icon.png" alt="Medium logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./figmaImages/images/github-logo.png" alt="GitHub logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="./figmaImages/images/angel-list-logo.png" alt="Angel List logo">
-                    </a>
-                </li>
-            </ul>
-        </section>
+        <h3 class="socialMedia">LET’S CONNECT</h3>
+        <ul class="socialMediaIcons">
+          <li>
+            <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-medium-m fa-lg"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-github fa-lg"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fab fa-angellist fa-lg"></i></a>
+          </li>
+        </ul>
+      </div>
     </section>
-
+    <!-- ####### Works Section #######-->
     <section class="works">
-        <div class="cards">
-            <img src="./figmaImages/snapshoots/Snapshoot Portfolio.svg" alt="Snapshoot">
-    
-            <div class="cards-description">
-                <h2 class="cards-titles">Tonic</h2>
-                <div class="subheading-lists">
-                    <span class="canopy">CANOPY</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">Back End Dev</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">2015</span>
-                </div>
-                <div class="card-content">
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                </div>
-                <ul class="webdev-languages">
-                    <li><a href="#html">HTML</a></li>
-                    <li><a href="#css">CSS</a></li>
-                    <li><a href="#javascript">Javascript</a></li>
-                </ul>
-                <button class="see-project">See Project</button>
-            </div>
+      <div class="workItem">
+        <img class="projectImg" src="./figmaImages/snapshoots/desk-1.svg" />
+        <div class="work">
+          <h2 class="projectName">Tonic</h2>
+          <div class="projectInfo">
+            <p class="projectType">CANOPY</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg" alt="" />
+            <p>Back End Dev</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg" alt="" />
+            <p>2015</p>
+          </div>
+          <p class="projectDescribtion">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="languages">
+            <li class="lang">html</li>
+            <li class="lang">css</li>
+            <li class="lang">javaScript</li>
+          </ul>
+          <button type="button">See Project</button>
         </div>
-        <div class="cards">
-            <img src="./figmaImages/snapshoots/Snapshoot Portfolio-2.svg" alt="Snapshoot">
-    
-            <div class="cards-description">
-                <h2 class="cards-titles">Multi-Post Stories</h2>
-                <div class="subheading-lists">
-                    <span class="canopy">CANOPY</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">Back End Dev</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">2015</span>
-                </div>
-                <div class="card-content">
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                </div>
-                <ul class="webdev-languages">
-                    <li><a href="#html">HTML</a></li>
-                    <li><a href="#css">CSS</a></li>
-                    <li><a href="#javascript">Javascript</a></li>
-                </ul>
-                <button class="see-project">See Project</button>
-            </div>
+      </div>
+      <div class="workItem">
+        <img class="projectImg" src="./figmaImages/snapshoots/Snapshoot Portfolio-4.svg" />
+        <div class="work">
+          <h2 class="projectName">Multi-Post Stories</h2>
+          <div class="projectInfo">
+            <p class="projectType">FACEBOOK</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg"alt="" />
+            <p>Full Stack Dev</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg"alt="" />
+            <p>2015</p>
+          </div>
+          <p class="projectDescribtion">
+            Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+          </p>
+          <ul class="languages">
+            <li class="lang">html</li>
+            <li class="lang">Ruby on rails</li>
+            <li class="lang">css</li>
+            <li class="lang">javaScript</li>
+          </ul>
+          <button type="button">See Project</button>
         </div>
-        <div class="cards">
-            <img src="./figmaImages/snapshoots/Snapshoot Portfolio-3.svg" alt="Snapshoot">
-    
-            <div class="cards-description">
-                <h2 class="cards-titles">Tonic</h2>
-                <div class="subheading-lists">
-                    <span class="canopy">CANOPY</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">Back End Dev</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">2015</span>
-                </div>
-                <div class="card-content">
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                </div>
-                <ul class="webdev-languages">
-                    <li><a href="#html">HTML</a></li>
-                    <li><a href="#css">CSS</a></li>
-                    <li><a href="#javascript">Javascript</a></li>
-                </ul>
-                <button class="see-project">See Project</button>
-            </div>
+      </div>
+      <div class="workItem">
+        <img class="projectImg" src="./figmaImages/snapshoots/Snapshoot Portfolio.svg" />
+        <div class="work">
+          <h2 class="projectName">Facebook 360</h2>
+          <div class="projectInfo">
+            <p class="projectType">FACEBOOK</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg" alt="" />
+            <p>Full Stack Dev</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg" alt="" />
+            <p>2015</p>
+          </div>
+          <p class="projectDescribtion">
+            Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul class="languages">
+            <li class="lang">html</li>
+            <li class="lang">Ruby on rails</li>
+            <li class="lang">css</li>
+            <li class="lang">javaScript</li>
+          </ul>
+          <button type="button">See Project</button>
         </div>
-        <div class="cards">
-            <img src="./figmaImages/snapshoots/Snapshoot Portfolio-4.svg" alt="Snapshoot">
-    
-            <div class="cards-description">
-                <h2 class="cards-titles">Multi-Post Stories</h2>
-                <div class="subheading-lists">
-                    <span class="canopy">CANOPY</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">Back End Dev</span>
-                    <img src="./figmaImages/icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">2015</span>
-                </div>
-                <div class="card-content">
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                </div>
-                <ul class="webdev-languages">
-                    <li><a href="#html">HTML</a></li>
-                    <li><a href="#css">CSS</a></li>
-                    <li><a href="#javascript">Javascript</a></li>
-                </ul>
-                <button class="see-project">See Project</button>
-            </div>
+      </div>
+      <div class="workItem">
+        <img class="projectImg" src="./figmaImages/snapshoots/Snapshoot Portfolio-2.svg" />
+        <div class="work">
+          <h2 class="projectName">Uber Navigation</h2>
+          <div class="projectInfo">
+            <p class="projectType">Uber</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg"alt="" />
+            <p>Lead Developer</p>
+            <img class="counter" src="./figmaImages/icons/circle-icon.svg" alt="" />
+            <p>2018</p>
+          </div>
+          <p class="projectDescribtion">
+            A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+          </p>
+          <ul class="languages">
+            <li class="lang">html</li>
+            <li class="lang">Ruby on rails</li>
+            <li class="lang">css</li>
+            <li class="lang">javaScript</li>
+          </ul>
+          <button type="button">See Project</button>
         </div>
+      </div>
     </section>
-    
-<section class="about-myself">
-    <h2>About Myself</h2>
-    <p class="paragraph">I’m a software developer! I can help you build a product, feature, or website. Look through
-        some of my work and experience! If you like what you see and have a project you need coded, 
-        don’t hesitate to contact me
-    </p>
-    <div class="socialnetwork-part">
-        <h3 class="connect-link">
-            <a href="#connect">LET'S CONNECT</a>
-        </h3>
-        <ul class="social-media-links">
+    <!-- ####### About Me Section #######-->
+    <section class="aboutMe">
+      <div class="container2">
+        <div class="aboutMySelf">
+          <h2>About Myself</h2>
+          <p class="describtion">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+         
+          <h3 class="socialMedia">LET’S CONNECT</h3>
+          <ul class="socialMediaIcons">
             <li>
-                <a href="#">
-                    <img src="./figmaImages/images/twitter-logo.png" alt="Twitter logo">
-                </a>
+              <a href=""><i class="fab fa-twitter fa-lg"></i></a>
             </li>
             <li>
-                <a href="#">
-                    <img src="./figmaImages/images/Linkedin icon.png" alt="LinkedIn logo">
-                </a>
+              <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
             </li>
             <li>
-                <a href="#">
-                    <img src="./figmaImages/images/medium-icon.png" alt="Medium logo">
-                </a>
+              <a href=""><i class="fab fa-medium-m fa-lg"></i></a>
             </li>
             <li>
-                <a href="#">
-                    <img src="./figmaImages/images/github-logo.png" alt="GitHub logo">
-                </a>
+              <a href=""><i class="fab fa-github fa-lg"></i></a>
             </li>
             <li>
-                <a href="#">
-                    <img src="./figmaImages/images/angel-list-logo.png" alt="Angel List logo">
-                </a>
+              <a href=""><i class="fab fa-angellist fa-lg"></i></a>
             </li>
-        </ul>
-    </div>
-
-    <button class="my-resume">Get my resume</button>
+          </ul>
+          <button type="button">Get my resume</button>
         </div>
-        <ul class="aboutme-list">
-            <li class="list-title">
-                <ul class="lists">
-                    <li><h4>Languages</h4></li>
-                   <li class="locate">
-                        <img src="./figmaImages/icons/dropdown-icon.png" alt="dropdown arrow">
-                    </li>
-                </ul>
+        <ul class="aboutMySelf-1">
+          <li class="langHead">
+            <h2>Languages</h2>
+            <i class="fas fa-chevron-down"></i>
+          </li>
+          <ul class="langType">
+            <li class="langItem">
+              <img src="./figmaImages/icons/js-icon.svg" />
+              <p>JavaScript</p>
             </li>
-            <li class="programming-lang">
-                <ul class="web-lang">
-                    <li>
-                        <img src="./figmaImages/icons/js-icon.svg" alt="Javascript icon">Javascript
-                    </li>
-                    <li>
-                        <img src="./figmaImages/icons/html-icon.svg" alt="Javascript icon">HTML
-                    </li>
-                    <li>
-                        <img src="./figmaImages/icons/css-icon.svg" alt="Javascript icon">CSS
-                    </li>
-                </ul>
-                <li class="list-title">
-                    <ul class="lists">
-                        <li><h4>Frameworks</h4></li>
-                        <li class="locate">
-                            <img src="./figmaImages/icons/expand-icon.png" alt="list expander">
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./figmaImages/icons/list-separator.png" alt="list-separator" class="list-separator">
-                </li>
-                <li class="list-title">
-                    <ul class="lists">
-                        <li><h4>Skills   </h4></li>
-                        <li class="locate">
-                            <img src="./figmaImages/icons/expand-icon.png" alt="list expander">
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./figmaImages/icons/list-separator.png" alt="list-separator" class="list-separator">
-                </li>
-     
+            <li class="langItem">
+              <img src="./figmaImages/icons/html-icon.svg" />
+              <p>HTML</p>
             </li>
+            <li class="langItem">
+              <img src="./figmaImages/icons/css-icon.svg" />
+              <p>CSS</p>
+            </li>
+          </ul>
+          <li class="frameworks">
+            <h2>Frameworks</h2>
+            <i class="fas fa-chevron-right"></i>
+          </li>
+          <li class="skills">
+            <h2>Skills</h2>
+            <i class="fas fa-chevron-right"></i>
+          </li>
         </ul>
-      </section>
-      <footer>
-        <div class="form">
+      </div>
+    </section>
+    <!-- ########## Footer ##########-->
+    
+    <footer>
+      <div class="footreContainer">
+        <div class="formTitle">
           <h2>Contact me</h2>
           <p>
             If you have an application you are interested in developing, a feature
@@ -270,36 +233,37 @@
             with it
           </p>
         </div>
-        <form class="myForm" action="https://formspree.io/f/xrgrvjjr" method="post">
-            <ul class="contact-form">
-                <li>
-                  <input
-                    type="text"
-                    name="name"
-                    maxlength="30"
-                    placeholder="Happi"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="gdushimimana6@gmail.com"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea
-                    name="message"
-                    maxlength="500"
-                    placeholder="Write your message here"
-                    required
-                  ></textarea>
-                </li>
-              </ul>
-          <button class="submitbutton" type="submit">Get It Touch</button>
+        <form class="form" action="https://formspree.io/f/xrgrvjjr" method="post">
+          <ul class="contact-form">
+            <li>
+              <input
+                type="text"
+                name="name"
+                maxlength="30"
+                placeholder="Happi"
+                required
+              />
+            </li>
+            <li>
+              <input
+                type="email"
+                name="email"
+                placeholder="gdushimimana6@gmail.com"
+                required
+              />
+            </li>
+            <li>
+              <textarea
+                name="message"
+                maxlength="500"
+                placeholder="Write your message here"
+                required
+              ></textarea>
+            </li>
+          </ul>
+          <button type="submit">Get It Touch</button>
         </form>
-      </footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
