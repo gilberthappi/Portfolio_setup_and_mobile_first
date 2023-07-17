@@ -61,7 +61,7 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: desktop version <a name="about-project"></a>
+# 📖 Portfolio: desktop version and Mobile version<a name="about-project"></a>
 
 > This project is about creating portfolio by using figma
 
@@ -69,64 +69,31 @@ For more information on the importance of a professional README for your reposit
 finish mobile version
 
 ## 🛠 Built With <a name="built-with"></a>
-1. HTML
-2. CSS
-3. Linters
-### Tech Stack <a name="tech-stack"></a>
 
-> HTML5: Markup language for creating the structure and content of web pages.
-CSS3: Stylesheet language for describing the presentation and layout of web pages.
+# Portfolio - live Demo.
+  https://gilberthappi.github.io/Portfolio/ 
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">HTML and CSS</a></li>
-  </ul>
-</details>
+  # Screenshots from mobile version.
+  ![screenshot](./figmaImages/screenshot/mobile1.png)  
+  ![screenshot](./figmaImages/screenshot/mobile2.png)  
+  ![screenshot](./figmaImages/screenshot/mobile3.png)  
+  ![screenshot](./figmaImages/screenshot/mobile4.png)  
+  ![screenshot](./figmaImages/screenshot/mobile5.png)  
+  ![screenshot](./figmaImages/screenshot/mobile6.png)  
 
+  # Screenshots from Desktop version.
+  ![screenshot](./figmaImages/screenshot/desktop1.png)
+   ![screenshot](./figmaImages/screenshot/desktop2.png)
+    ![screenshot](./figmaImages/screenshot/desktop3.png)
+     ![screenshot](./figmaImages/screenshot/desktop4.png)
+      ![screenshot](./figmaImages/screenshot/desktop5.png)
+       ![screenshot](./figmaImages/screenshot/desktop6.png)
+        ![screenshot](./figmaImages/screenshot/desktop7.png)
 
-<!-- Features -->
+  ## Built With
+- HTML
+- CSS
 
-### Key Features <a name="key-features"></a>
-
-> This project is about creating pages of portfolio mobile first 
-- Add a professional README.md file
-- Use flexbox in order to lay out the elements on the page
--use grid
-- Set up a linter for the project
-- **HTML and CSS**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
->Familiarize yourself with the project structure: Take some time to understand how the project is organized
->Examine the HTML structure: Open the main HTML file in a text editor or an integrated development environment (IDE). 
-
-### Prerequisites 
-In order to run this project you need:
-1. Git.
-2. Visual Studio Code or another code editor.
-3. Browser.  
-   
-### Install
-
-This project does not require installation. Just clone the repository to your local machine and open the HTML file in a browser.
-Even though, for general purposes, Install this project with:
-```sh
-  cd my-folder
-  npm install
-```
-
-### Usage
-To run the project, do the following:
-- After cloning the repository to your local computer, open the folder in a code editor.
-- Find the path of the index.html file and open it in your preferred browser.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -136,19 +103,6 @@ To run the project, do the following:
 - GitHub: [@githubhandle](https://github.com/gilberthappi)
 - Twitter: [@twitterhandle](https://twitter.com/DushimimanaGil3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dushimimana-gilbert-happi-997b2a262/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
->Header description
->Contact form
->Footer description
-
-- [ ] **headings** here we will ceate headings
-- [ ] **styling** here we will styling pages
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
