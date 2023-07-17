@@ -71,7 +71,7 @@ finish mobile version
 ## 🛠 Built With <a name="built-with"></a>
 
 # Portfolio - live Demo.
-  https://gilberthappi.github.io/Portfolio/ 
+  https://gilberthappi.github.io/portfolio/
 
   # Screenshots from mobile version.
   ![screenshot](./figmaImages/screenshot/mobile1.png)  
