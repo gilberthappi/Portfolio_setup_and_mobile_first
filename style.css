@@ -112,7 +112,7 @@ nav {
     top: 0;
     height: 100vh;
     width: 100vw;
-    border-bottom: 1px solid #DFE1E6;
+    border-bottom: 1px solid #dfe1e6;
     padding-left: 30px;
     padding-right: 42px;
     padding-top: 26px;
@@ -122,9 +122,11 @@ nav {
     transition: 0.5s;
     color: #fff;
   }
+
   .navLinks ul {
     margin-top: 4rem;
   }
+
   .navLinks li {
     margin: 20px 0;
     font-weight: 600;
