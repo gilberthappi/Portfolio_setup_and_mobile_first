@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
@@ -84,6 +84,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
@@ -101,10 +102,42 @@ nav {
 
 /* ####### Hero Section ######## */
 
+@media only screen and (max-width: 576px) {
+  .navLinks.show {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 1px solid #DFE1E6;
+    padding-left: 30px;
+    padding-right: 42px;
+    padding-top: 26px;
+    background: rgba(97, 113, 255, 0.92);
+    text-align: center;
+    z-index: 2;
+    transition: 0.5s;
+    color: #fff;
+  }
+  .navLinks ul {
+    margin-top: 4rem;
+  }
+  .navLinks li {
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+  }
+}
+
 .hero {
   background-color: white;
   height: calc(100vh - 72px);
-  background-image: url("./figmaImages/images/header-shapes\ mobile.png");
+  background-image: url('./figmaImages/images/header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -491,7 +524,7 @@ form {
     margin-top: 72px;
     height: calc(846px - 72px);
     width: 100%;
-    background-image: url("./figmaImages/images/desktop-images/Header\ bg.svg");
+    background-image: url('./figmaImages/images/desktop-images/Header\ bg.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
