@@ -94,6 +94,13 @@ finish mobile version
 - HTML
 - CSS
 
+## Key Features
+ Feature 1:Portfolio - mobile menu
+
+## Future Features
+Feature 1: Portfolio: details popup window
+Feature 2: A real-time chat application with support for multiple users.
+
 
 <!-- AUTHORS -->
 
