@@ -107,7 +107,7 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     height: 100vh;
@@ -116,11 +116,12 @@ nav {
     padding-left: 30px;
     padding-right: 42px;
     padding-top: 26px;
-    background: rgba(97, 113, 255, 0.92);
+    background: rgba(97, 113, 255, 0.85);
     text-align: center;
     z-index: 2;
     transition: 0.5s;
     color: #fff;
+    backdrop-filter: blur(5px);
   }
 
   .navLinks ul {
