@@ -178,3 +178,53 @@ document.querySelectorAll('.pop-btn').forEach((btn) => {
     }
   });
 });
+
+// ######## form client side validation ########
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const formBtn = document.querySelector('.submit-btn');
+
+function setErrorFor(input) {
+  const formControl = input.parentElement;
+  formControl.className = 'form-control error';
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement;
+  formControl.className = 'form-control success';
+}
+
+function isEmail(email) {
+  return /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/.test(email);
+}
+
+function checkInputs() {
+  let errorMsg;
+  let valid = true;
+  const emailValue = email.value.trim();
+
+  if (emailValue === '') {
+    valid = false;
+    errorMsg = 'Email cannot be blank';
+    setErrorFor(email, 'Email cannot be blank');
+  } else if (!isEmail(emailValue)) {
+    valid = false;
+    errorMsg = 'Email is not valid';
+    setErrorFor(email, 'Email is not valid');
+  } else {
+    setSuccessFor(email);
+  }
+  return { valid, errorMsg };
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const validation = checkInputs();
+  if (validation.valid) {
+    form.submit();
+  } else {
+    formBtn.classList.add('error');
+    formBtn.querySelector('small').innerHTML = validation.errorMsg;
+  }
+});
