@@ -428,6 +428,10 @@ form {
   border: 3px solid #e74c3c;
 }
 
+#error-msg {
+  display: none;
+}
+
 .submit-btn {
   display: flex;
   align-items: center;

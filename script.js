@@ -180,14 +180,15 @@ document.querySelectorAll('.pop-btn').forEach((btn) => {
 });
 
 // ######## form client side validation ########
-
 const form = document.getElementById('form');
 const email = document.getElementById('email');
-const formBtn = document.querySelector('.submit-btn');
+const errorMsg = document.getElementById('error-msg');
 
-function setErrorFor(input) {
+function setErrorFor(input, message) {
   const formControl = input.parentElement;
   formControl.className = 'form-control error';
+  errorMsg.innerHTML = message;
+  errorMsg.style.display = 'block';
 }
 
 function setSuccessFor(input) {
@@ -196,25 +197,26 @@ function setSuccessFor(input) {
 }
 
 function isEmail(email) {
-  return /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/.test(email);
+  return email === email.toLowerCase();
 }
 
 function checkInputs() {
-  let errorMsg;
   let valid = true;
-  const emailValue = email.value.trim();
+  let errorMsg = '';
 
+  const emailValue = email.value.trim();
   if (emailValue === '') {
     valid = false;
     errorMsg = 'Email cannot be blank';
-    setErrorFor(email, 'Email cannot be blank');
+    setErrorFor(email, errorMsg);
   } else if (!isEmail(emailValue)) {
     valid = false;
-    errorMsg = 'Email is not valid';
-    setErrorFor(email, 'Email is not valid');
+    errorMsg = 'Email should be in lowercase';
+    setErrorFor(email, errorMsg);
   } else {
     setSuccessFor(email);
   }
+
   return { valid, errorMsg };
 }
 
@@ -223,8 +225,5 @@ form.addEventListener('submit', (event) => {
   const validation = checkInputs();
   if (validation.valid) {
     form.submit();
-  } else {
-    formBtn.classList.add('error');
-    formBtn.querySelector('small').innerHTML = validation.errorMsg;
   }
 });
