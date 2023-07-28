@@ -95,10 +95,10 @@ finish mobile version
 - CSS
 
 ## Key Features
- Feature 1:Portfolio: details popup window
+ Feature 1:Portfolio: validate contact form
 
 ## Future Features
-Feature 1: Portfolio: validate contact form
+Feature 1: Portfolio: preserve data in the browser
 Feature 2: A real-time chat application with support for multiple users.
 
 

@@ -178,3 +178,52 @@ document.querySelectorAll('.pop-btn').forEach((btn) => {
     }
   });
 });
+
+// ######## form client side validation ########
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const errorMsg = document.getElementById('error-msg');
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement;
+  formControl.className = 'form-control error';
+  errorMsg.innerHTML = message;
+  errorMsg.style.display = 'block';
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement;
+  formControl.className = 'form-control success';
+}
+
+function isEmail(email) {
+  return email === email.toLowerCase();
+}
+
+function checkInputs() {
+  let valid = true;
+  let errorMsg = '';
+
+  const emailValue = email.value.trim();
+  if (emailValue === '') {
+    valid = false;
+    errorMsg = 'Email cannot be blank';
+    setErrorFor(email, errorMsg);
+  } else if (!isEmail(emailValue)) {
+    valid = false;
+    errorMsg = 'Email should be in lowercase';
+    setErrorFor(email, errorMsg);
+  } else {
+    setSuccessFor(email);
+  }
+
+  return { valid, errorMsg };
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const validation = checkInputs();
+  if (validation.valid) {
+    form.submit();
+  }
+});
